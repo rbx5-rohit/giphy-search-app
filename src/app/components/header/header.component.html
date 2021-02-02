@@ -5,17 +5,17 @@
         </div>
         <div class="column">
             <div class="search-bar">
-                <input type="text" name="">
+                <input (keydown.enter)="search()" [(ngModel)]="searchQuery" type="text" name="gifSearch" > 
                 <div class="giphy-nav__search-bar__drop-down">
                 </div>
-                <i class="fa fa-search"></i>
+               <div> <i (click)="search()"  class="fa fa-search c"></i></div>
               </div>
         </div>
         <div class="column">
             <h3>You can Search any gif with our search</h3>
         </div>
         <div class="column">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur cumque molestiae alias.</p>
+          <p>Everything you need for your creative projects, websites, banners, presentations, magazines and advertising.</p>
         </div>
     </div>
 </div>

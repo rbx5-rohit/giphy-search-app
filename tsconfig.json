@@ -10,6 +10,9 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
+    "noImplicitUseStrict": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
     "target": "es2015",
     "module": "es2020",
     "lib": [

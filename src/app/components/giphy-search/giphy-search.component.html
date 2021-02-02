@@ -1,1 +1,6 @@
-<p>giphy-search works!</p>
+
+    <div class="photo-grid">
+        <div *ngFor="let res of response" class="cells card-tall">
+            <img [src]="res.images.downsized.url" width="200" height="300" alt="image">
+        </div>
+    </div>
